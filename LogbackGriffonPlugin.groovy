@@ -14,6 +14,9 @@
  * limitations under the License.
  */
 
+/**
+ * @author Andres Almiray
+ */
 class LogbackGriffonPlugin {
     // the plugin version
     String version = '0.1'
@@ -35,7 +38,7 @@ class LogbackGriffonPlugin {
     // URL where documentation can be found
     String documentation = ''
     // URL where source can be found
-    String source = ''
+    String source = 'https://github.com/griffon/griffon-logback-plugin'
     // Map of Bnd directives and/or Manifest entries
     // see http://www.aqute.biz/Bnd/Bnd for reference
     Map manifest = [
